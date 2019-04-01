@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: this page is supposed to me about me...
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Daniel Horsley, not Inigo Montoya. you didn't kill my father, you don't have to prepare to die
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I don't have a moustace
+- i don't know
 
 What else do you need?
 

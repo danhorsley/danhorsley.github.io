@@ -1,16 +1,19 @@
 ---
 layout: page
-title: About me
-subtitle: this page is supposed to me about me...
+title: Daniel Horsley
+subtitle: who is this strange man?
 ---
 
-My name is Daniel Horsley, not Inigo Montoya. you didn't kill my father, you don't have to prepare to die
+Here are a few details about me:
 
-- I don't have a moustace
-- i don't know
+- Sometime long ago, almost before computers were invented, I trained as a pure mathematician at Oxford University
+- I left academia to pursue a career in finance and spent the next twenty years working as a derivative and convertible bond trader...
+- ...before eventually setting up my own hedge fund.
+- Data Science has become the dominant force not only in my industry of expertise, but almost every industry globally so..
+- I am taking some time to update my skillset and trying to combine the things i've learned previously with this ever growing field
 
-What else do you need?
+##What else?
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+ - I live in the UK where it rains a lot and people generally [act like this.](https://twitter.com/SoVeryBritish)
+ - I have two pet children and one pet dog
+ - I play piano, guitar and run slowly

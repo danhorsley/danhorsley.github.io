@@ -12,7 +12,7 @@ Here are a few details about me:
 - Data Science has become the dominant force not only in my industry of expertise, but almost every industry globally so..
 - I am taking some time to update my skillset and trying to combine the things i've learned previously with this ever growing field
 
-##What else?
+## What else?
 
  - I live in the UK where it rains a lot and people generally [act like this.](https://twitter.com/SoVeryBritish)
  - I have two pet children and one pet dog

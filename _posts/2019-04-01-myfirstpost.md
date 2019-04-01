@@ -1,18 +1,14 @@
 ---
 layout:post
-title:hello world it's april
-subtitle : examle subtitle
-bigimg:/img/path.jpg
+title: What will my first data science prjoect be about?
+subtitle : ...I really have no idea yet...
+#bigimg:/img/path.jpg
 tage:[hello,test]
 ---
+!(https://previews.123rf.com/images/hollygraphic/hollygraphic1301/hollygraphic130100016/17177197-black-question-mark-from-question-words.jpg)
 
-this is a test new blog post, let's see how this goes.
+ - pick a dataset, any dataset
+ - now what?
 
-i have no idea what i'm doing but maybe it will work
 
--this
--list
--rocks
-
-![Logo](https://jazzaria.com/logo.png)
 

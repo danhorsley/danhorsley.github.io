@@ -16,4 +16,4 @@ Here are a few details about me:
 
  - I live in the UK where it rains a lot and people generally [act like this.](https://twitter.com/SoVeryBritish)
  - I have two pet children and one pet dog
- - I play piano, guitar and run slowly
+ - I play piano and guitar and also run slowly

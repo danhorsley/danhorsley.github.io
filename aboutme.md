@@ -10,7 +10,7 @@ Here are a few details about me:
 - I left academia to pursue a career in finance and spent the next twenty years working as a derivative and convertible bond trader...
 - ...before eventually setting up my own hedge fund.
 - Data Science has become the dominant force not only in my industry of expertise, but almost every industry globally so..
-- I am taking some time to update my skillset and trying to combine the things i've learned previously with this ever growing field
+- I am taking some time to update my skillset and trying to combine the things I've learned previously with this ever growing field
 
 ## What else?
 

@@ -13,7 +13,8 @@ I found a very comprehensive [dataset](http://data.nobelprize.org/) from the Nob
 There was a decent variety of data to be cleaned up : missing dates, missing countries stemming from many prizes being awarded to international organizations, archaic country names (i.e. USSR (now Belarus)) and joining first names and last names for a project which I won't display here (yet!).
 Various methods were used including to_datetime, regex and try excepts to find the last stubborn strings which weren't complying.
 
-```import pandas as pd
+```
+import pandas as pd
 import numpy as np
 nobel_prize = pd.read_csv('nobel_prize_by_winner.csv', encoding = "ISO-8859-1")
 #lots and lots of data cleaning - changing to date time - missing years - changing archaic country names etc etc
@@ -31,7 +32,8 @@ nobel_prize['full_name'] =nobel_prize[['firstname', 'surname']].apply(lambda x: 
 
 ...and yet more cleaning...
 
-```nobel_prize['bornCountry'] = nobel_prize['bornCountry'].replace(np.nan,'International Organization')
+```
+nobel_prize['bornCountry'] = nobel_prize['bornCountry'].replace(np.nan,'International Organization')
 nobel_prize['bornCountryCode'] = nobel_prize['bornCountryCode'].replace(np.nan,'IO')
 #making new column with clean country names
 cleanlist = []
@@ -48,7 +50,8 @@ nobel_prize['year of win'] =nobel_prize['year'].dt.year
 ```
 Then I made a cross tab of the data to make our first plot
 
-```nobel_top = nobel_prize[nobel_prize['country of birth'].isin(top_winners)]
+```
+nobel_top = nobel_prize[nobel_prize['country of birth'].isin(top_winners)]
 win_time_bin_top = pd.cut(nobel_top['year of win'], 10,precision=0) 
 nobel_ct = pd.crosstab(nobel_top['country of birth'], win_time_bin_top).head()
 nobel_ct
@@ -62,7 +65,8 @@ Here is the first plot I made
 
 I decided to look into which countries did well in which categories so i made a cross tab of country vs category and plotted it as a heat map
 
-```top_winners20 = list(nobel_prize['country of birth'].value_counts().head(20).index)
+```
+top_winners20 = list(nobel_prize['country of birth'].value_counts().head(20).index)
 nobel_top20 = nobel_prize[nobel_prize['country of birth'].isin(top_winners20)]
 ct_subject = pd.crosstab(nobel_top20['country of birth'], nobel_top20['category'])
 ax_subject = sns.heatmap(ct_subject.T,cmap='Blues')
@@ -72,6 +76,8 @@ ax_subject.figure.set_size_inches(15, 8)
 and the result was 
 
 <img src="/img/nobel%20heatmap%201.png" width=800 height =400>
+
+
 ---
 
 

@@ -44,8 +44,19 @@ nobel_prize['country of birth']=cleanlist
 nobel_prize['country of birth'] = nobel_prize['country of birth'].str.replace('W&uuml;Germany','Germany')
 nobel_prize['country of birth'] = nobel_prize['country of birth'].str.replace('Faroe Islands \(\Denmark','Denmark')
 top_winners = list(nobel_prize['country of birth'].value_counts().head(5).index)
+nobel_prize['year of win'] =nobel_prize['year'].dt.year
+```
+Then I made a cross tab of the data to make our first plot
+
+```nobel_top = nobel_prize[nobel_prize['country of birth'].isin(top_winners)]
+win_time_bin_top = pd.cut(nobel_top['year of win'], 10,precision=0) 
+nobel_ct = pd.crosstab(nobel_top['country of birth'], win_time_bin_top).head()
+nobel_ct
 ```
 
+Here is the first plot I made
+
+!(stacked bar.png)
 ---
 
 

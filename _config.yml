@@ -42,7 +42,7 @@ navbar-links:
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#5F9EA0"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
@@ -64,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Daniel Horsley
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.

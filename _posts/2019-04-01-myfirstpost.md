@@ -82,6 +82,41 @@ and the result was ...
 
 ![](/img/nobel%20heatmap%201.png)
 
+### Misleading?
+
+It's easy to see how countries with larger populations would dominate, but how about we adjust contribution per million of population to see who is the best country pound for pound by category?
+
+First we had to import some population data
+
+```
+df_pop = pd.read_csv('https://raw.githubusercontent.com/datasets/population/master/data/population.csv')
+
+df_pop = df_pop.rename(columns = {'Country Name':'country of birth'})
+df_pop = df_pop.set_index('country of birth')
+pop_average = df_pop.groupby(level=0).mean()
+pop_average = pop_average.drop(['Year'], axis=1)
+pop_average.index = pop_average.index.str.replace('United States','USA')
+pop_average.index = pop_average.index.str.replace('Netherlands','the Netherlands')
+```
+then we merged it into existing dataframe and divided the winners by population average and multiplying by 1 million...
+
+```
+merged = pd.merge(ct_subject, pop_average, left_index=True, right_index=True, how='inner')
+subject_adjusted_for_pop = merged.div(merged.Value,axis=0)*1000000
+subject_adjusted_for_pop = subject_adjusted_for_pop.drop(['Value'], axis=1)
+```
+
+before doing one last plot
+
+```
+ax_subject_adj = sns.heatmap(subject_adjusted_for_pop.T,cmap='Blues')
+ax_subject_adj.figure.set_size_inches(15, 8)
+ax_subject_adj.set_title('Nobel Prize Winners by category per million population')
+```
+
+![](/img/nobel%20heatmap%202.png)
+
+
 
 ---
 

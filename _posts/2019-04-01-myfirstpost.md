@@ -64,7 +64,7 @@ ax.set_title('Stacked Bar Chart - number of Nobel Prize winners by country and y
 
 ...which produced this stacked bar chart...
 
-<img src="/img/stacked%20bar.png" width=800 height =400>
+[//]: <> (<img src="/img/stacked%20bar.png" width=800 height =400>)
 
 ![](/img/stacked%20bar.png)
 

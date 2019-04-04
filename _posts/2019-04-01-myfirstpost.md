@@ -64,8 +64,6 @@ ax.set_title('Stacked Bar Chart - number of Nobel Prize winners by country and y
 
 ...which produced this stacked bar chart...
 
-[//]: <> (<img src="/img/stacked%20bar.png" width=800 height =400>)
-
 ![](/img/stacked%20bar.png)
 
 ### Now what?
@@ -80,9 +78,9 @@ ax_subject = sns.heatmap(ct_subject.T,cmap='Blues')
 ax_subject.figure.set_size_inches(15, 8)
 ```
 
-and the result was 
+and the result was ...
 
-<img src="/img/nobel%20heatmap%201.png" width=800 height =400>
+![](/img/nobel%20heatmap%201.png)
 
 
 ---

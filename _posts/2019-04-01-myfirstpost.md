@@ -118,7 +118,9 @@ ax_subject_adj.set_title('Nobel Prize Winners by category per million population
 
 ### Conclusions
 
-We can see that pound for pound Austria is the chemistry boss, norway leads in economics, sweden and denmark seem to produce good novels (bias here from the academy as I never read any of them!?!).  Austria, Switzerland and Denmark are helping us live longer, peace is more evenly distributed (which makes sense by the very nature of problems occuring randomly all over the world) as is physics which also makes sense as there would be the least amount of bias in the decision making process (especially versus literature and economics).
+We can see that pound for pound Austria is the chemistry boss (has this got some link with industry?), Norway leads in economics, Sweden and Denmark seem to produce good novels (bias here from the academy as I never read any of them!?!).  Austria, Switzerland and Denmark are helping us live longer, peace is more evenly distributed (which makes sense by the very nature of problems occuring randomly all over the world) as is physics which also makes sense as there would be the least amount of bias in the decision making process (especially versus literature).
+
+The next goal for this project would be to analyse networks between the winners and various institutions. 
 
 ---
 

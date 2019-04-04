@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nobel Laureate Analysis
-image: /img/nobel.jpeg
+image: /img/nobel2.jpeg
 ---
 
 ### Introduction

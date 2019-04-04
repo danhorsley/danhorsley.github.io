@@ -26,7 +26,8 @@ nobel_prize['born'] = pd.to_datetime(nobel_prize['born'], infer_datetime_format=
 nobel_prize['died'] = pd.to_datetime(nobel_prize['died'], infer_datetime_format=True)
 nobel_prize['year'] = pd.to_datetime(nobel_prize['year'], format='%Y')
 nobel_prize['surname'] = nobel_prize['surname'].fillna('')
-nobel_prize['full_name'] =nobel_prize[['firstname', 'surname']].apply(lambda x: ' '.join(x), axis=1)```
+nobel_prize['full_name'] =nobel_prize[['firstname', 'surname']].apply(lambda x: ' '.join(x), axis=1)
+```
 
 ...and yet more cleaning...
 
@@ -42,7 +43,8 @@ for country in clist:
 nobel_prize['country of birth']=cleanlist
 nobel_prize['country of birth'] = nobel_prize['country of birth'].str.replace('W&uuml;Germany','Germany')
 nobel_prize['country of birth'] = nobel_prize['country of birth'].str.replace('Faroe Islands \(\Denmark','Denmark')
-top_winners = list(nobel_prize['country of birth'].value_counts().head(5).index)```
+top_winners = list(nobel_prize['country of birth'].value_counts().head(5).index)
+```
 
 ---
 

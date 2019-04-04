@@ -54,12 +54,19 @@ Then I made a cross tab of the data to make our first plot
 nobel_top = nobel_prize[nobel_prize['country of birth'].isin(top_winners)]
 win_time_bin_top = pd.cut(nobel_top['year of win'], 10,precision=0) 
 nobel_ct = pd.crosstab(nobel_top['country of birth'], win_time_bin_top).head()
-nobel_ct
+import seaborn as sns
+sns.set()
+ax = nobel_ct.T.plot(kind='bar', stacked=True, colormap = 'Spectral')
+ax.figure.set_size_inches(15, 8)
+ax.set(facecolor='#f9f9f9')
+ax.set_title('Stacked Bar Chart - number of Nobel Prize winners by country and year of win');
 ```
 
-Here is the first plot I made
+...which produced this stacked bar chart...
 
 <img src="/img/stacked%20bar.png" width=800 height =400>
+
+![](/img/stacked%20bar.png)
 
 ### Now what?
 

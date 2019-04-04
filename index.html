@@ -3,9 +3,10 @@ layout: page
 title: Adventures in Data Science
 subtitle: See below for various projects I have worked on 
 use-site-title: true
+post.content | truncatewords:50 | strip_html
 ---
 
-post.content | truncatewords:50 | strip_html
+
 
 <div class="posts-list">
   {% for post in paginator.posts %}

@@ -1,2 +1,7 @@
-[InternetShortcut]
-URL=https://github.com/daattali/beautiful-jekyll/blob/master/_posts/2015-01-04-first-post.md
+---
+layout: post
+title: First post!
+image: /img/hello_world.jpeg
+---
+
+This is my first post, how exciting!

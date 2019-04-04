@@ -1,14 +1,20 @@
 ---
 layout:post
-title: What will my first data science prjoect be about?
-subtitle : ...I really have no idea yet...
-#bigimg:/img/path.jpg
-#tage:[hello,test]
----
-![a big question mark](https://previews.123rf.com/images/hollygraphic/hollygraphic1301/hollygraphic130100016/17177197-black-question-mark-from-question-words.jpg)
+title: An analysis of Nobel Prize winners by country and category
+subtitle : and which countries have punched above their weight
 
- - pick a dataset, any dataset
- - now what?
+## Introduction
+I found a very comprehensive [dataset](https://data.world/sya/nobel-prize-winners/workspace/file?filename=nobel_prize_by_winner.csv) from the Nobel Prize academy detailing all winners, birth, death and year of win.  In this post I will do some basic analysis on the data and I suppose further analysis could be done on whether educational systems are more important, or networks of people active at similar times
+
+## Data Cleaning
+There was a huge amount of data to be cleaned up: missing dates, missing countries stemming from many prizes being awarded to international organizations, archaic country names (i.e. USSR (now Belarus)) and joining first names and last names for a project which i won't display here (yet!).
+Various methods were used including to_datetime, regex and try excepts to find the last stubborn strings which weren't complying.
+
+```import pandas as pd
+import numpy as np
+nobel_prize = pd.read_csv('nobel_prize_by_winner.csv', encoding = "ISO-8859-1")```
+---
+
 
 
 

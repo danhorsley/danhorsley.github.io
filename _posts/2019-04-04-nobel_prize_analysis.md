@@ -1,8 +1,7 @@
 ---
-layout:post
-title: An analysis of Nobel Prize winners by country and category
-subtitle: and which countries have punched above their weight
-image: /img/nobel.jpeg
+layout: post
+title: First post!
+image: /img/hello_world.jpeg
 ---
 
 ### Introduction

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: Nobel Laureate Analysis
+image: /img/nobel.jpeg
 ---
 
 ### Introduction

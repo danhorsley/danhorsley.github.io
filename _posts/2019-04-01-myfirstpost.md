@@ -56,7 +56,7 @@ nobel_ct
 
 Here is the first plot I made
 
-![stacked bar](/img/stacked bar.png?raw=true)
+![stacked bar](/img/stacked%20bar.png?raw=true)
 ---
 
 

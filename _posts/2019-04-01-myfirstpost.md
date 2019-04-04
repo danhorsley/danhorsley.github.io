@@ -56,7 +56,22 @@ nobel_ct
 
 Here is the first plot I made
 
-![stacked bar](/img/stacked%20bar.png?raw=true)
+<img src="/img/stacked%20bar.png" width=800 height =400>
+
+### Now what?
+
+I decided to look into which countries did well in which categories so i made a cross tab of country vs category and plotted it as a heat map
+
+```top_winners20 = list(nobel_prize['country of birth'].value_counts().head(20).index)
+nobel_top20 = nobel_prize[nobel_prize['country of birth'].isin(top_winners20)]
+ct_subject = pd.crosstab(nobel_top20['country of birth'], nobel_top20['category'])
+ax_subject = sns.heatmap(ct_subject.T,cmap='Blues')
+ax_subject.figure.set_size_inches(15, 8)
+```
+
+and the result was 
+
+<img src="/img/nobel%20heatmap%201.png" width=800 height =400>
 ---
 
 

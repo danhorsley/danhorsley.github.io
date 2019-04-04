@@ -3,9 +3,6 @@ layout: post
 title: Nobel Laureate Analysis
 image: /img/nobel2.jpeg
 ---
-
-### Introduction
-
 I found a very comprehensive [dataset](http://data.nobelprize.org/) from the Nobel Prize academy detailing all winners, birth, death and year of win.  In this post I will do some basic analysis on the data and I suppose further analysis could be done on whether educational systems are more important, or networks of people active at similar times
 
 ### Data Cleaning

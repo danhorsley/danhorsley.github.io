@@ -20,6 +20,6 @@ The second plot shows that correlation varies over time, and tends to be higher 
 
 ![](/img/expvsreal.jpg)
 
-In the third plot you see the expected market volatility is almost always higher than the reality.  Why is this?  The main driver is that the value of these volatility indices is the market pricing for options.  People buy options to hedge their portfolios.  They buy this as 'insurance', in case the bad times start rolling.  And much like real world insurance they will need to pay more than fair value to get their protection.  
+In the third plot you see the expected market volatility is almost always higher than the reality.  Why is this?  The main driver is that the value of these volatility indices is determined by the market pricing for options.  People buy options to hedge their portfolios.  They buy this as 'insurance', in case the bad times start rolling.  And much like real world insurance they will need to pay more than fair value to get their protection.  
 
 So we can see that these volatility indices are less a guess on market moves in the coming month than a 'fear index' of the potential pitfalls ahead.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Volatility
+title: Volatility: Expectations vs Reality
 image: /img/regression1.jpg
 ---
 

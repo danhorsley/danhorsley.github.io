@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daniel Horsley
-subtitle: who is this strange man?
+subtitle: about me....
 ---
 
 ### Here are a few details about me:

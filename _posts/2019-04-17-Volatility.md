@@ -12,14 +12,18 @@ Two of the biggest regional indices are the Eurostoxx 50 and the S&P 500.  Their
 
 ![](/img/regression1.jpg)
 
-In this first plot we can see a high negative correlation, which is what you would expect.  As markets go down, moves become larger as fear manifests itself faster than greed.
+In this first plot we can see a high negative correlation, which is what you would expect. As markets go down, moves become larger as fear manifests itself faster than greed. You can also see how the relationship is changing over time. The gradients of both regressions are becoming steeper as time passes. There main factor behind this is that now the volatility indices move off a lower base. Though volatility is lower in normal times, you still get the same peaks in times of stress.
+
+### Correlation over time
 
 ![](/img/rolling_corr.jpg)
 
-The second plot shows that correlation varies over time, and tends to be higher in times of market stress.
+The second plot shows that correlation varies over time, and tends to be higher (in absolute terms) in times of market stress. It’s not only these asset classes which experience higher correlation. The ‘flight to safety’ effect increases absolute correlations between many asset classes.
+
+### Expectations vs. reality
 
 ![](/img/expvsreal.jpg)
 
 In the third plot you see the expected market volatility is almost always higher than the reality.  Why is this?  The main driver is that the value of these volatility indices is determined by the market pricing for options.  People buy options to hedge their portfolios.  They buy this as 'insurance', in case the bad times start rolling.  And much like real world insurance they will need to pay more than fair value to get their protection.  
 
-So we can see that these volatility indices are less a guess on market moves in the coming month than a 'fear index' of the potential pitfalls ahead.
+So we can see that these volatility indices are less a guess on market moves in the coming month than a 'fear index' of what market participants are willing to pay to safeguard their portfolios.
